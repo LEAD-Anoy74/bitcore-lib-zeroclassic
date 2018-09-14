@@ -59,8 +59,8 @@ describe('Signature', function() {
         blank
       ]);
       var sig = Signature.fromCompact(compressed);
-      sig.r.cmp(BN.Zero).should.equal(0);
-      sig.s.cmp(BN.Zero).should.equal(0);
+      sig.r.cmp(BN.ZeroClassic).should.equal(0);
+      sig.s.cmp(BN.ZeroClassic).should.equal(0);
       sig.compressed.should.equal(true);
     });
 

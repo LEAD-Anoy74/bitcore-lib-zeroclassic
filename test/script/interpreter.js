@@ -91,7 +91,7 @@ describe('Interpreter', function() {
       var buf = new Buffer('00', 'hex');
       var bool = BN.fromSM(buf, {
         endian: 'little'
-      }).cmp(BN.Zero) !== 0;
+      }).cmp(BN.ZeroClassic) !== 0;
       Interpreter.castToBool(buf).should.equal(bool);
     });
 

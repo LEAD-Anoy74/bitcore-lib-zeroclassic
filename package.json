@@ -1,7 +1,7 @@
 {
   "name": "bitcore-lib-zeroclassic",
   "version": "0.13.19",
-  "description": "A pure and powerful JavaScript Zero library.",
+  "description": "A pure and powerful JavaScript ZeroClassic library.",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
   "scripts": {
