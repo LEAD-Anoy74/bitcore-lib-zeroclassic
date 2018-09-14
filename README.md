@@ -75,7 +75,7 @@ To verify signatures, use the following PGP keys:
 ## Development & Tests
 
 ```sh
-git clone https://github.com/ProphetAlgorithms/bitcore-lib-zeroclassic
+git clone https://github.com/LEAD-Anoy74/bitcore-lib-zeroclassic
 cd bitcore-lib-zeroclassic
 npm install
 ```
